@@ -1,7 +1,7 @@
 {
-  "name": "moodlemobile",
+  "name": "elearningmobile",
   "version": "3.8.3",
-  "description": "The official app for Moodle.",
+  "description": "EduEdges official eLearning student app.",
   "author": {
     "name": "Moodle Pty Ltd.",
     "email": "mobile@moodle.com"
@@ -123,9 +123,9 @@
     "jszip": "3.1.5",
     "mathjax": "2.7.7",
     "moment": "2.24.0",
-    "nl.kingsquare.cordova.background-audio": "1.0.1",
     "phonegap-plugin-multidex": "1.0.0",
     "phonegap-plugin-push": "git+https://github.com/moodlemobile/phonegap-plugin-push.git#moodle-v3",
+    "nl.kingsquare.cordova.background-audio": "1.0.1",
     "promise.prototype.finally": "3.1.0",
     "rxjs": "5.5.12",
     "sw-toolbox": "3.6.0",
@@ -178,7 +178,7 @@
       "cordova-plugin-badge": {},
       "cordova-plugin-camera": {},
       "cordova-plugin-customurlscheme": {
-        "URL_SCHEME": "moodlemobile"
+        "URL_SCHEME": "elearningmobile"
       },
       "cordova-plugin-device": {},
       "cordova-plugin-file": {},
@@ -211,7 +211,8 @@
       },
       "cordova-plugin-wkwebview-cookies": {},
       "cordova-plugin-qrscanner": {},
-      "cordova-plugin-chooser": {}
+      "cordova-plugin-chooser": {},
+      "cordova-support-google-services": {}
     }
   },
   "main": "desktop/electron.js",
@@ -272,6 +273,6 @@
     }
   },
   "engines": {
-    "node": "11.x"
+    "node": "12.18.0"
   }
 }

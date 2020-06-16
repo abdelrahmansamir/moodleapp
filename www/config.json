@@ -3,7 +3,7 @@
     "appname": "EduEdges Mobile",
     "desktopappname": "EduEdges Desktop",
     "versioncode": 3830,
-    "versionname": "3.8.3-dev",
+    "versionname": "3.8.3",
     "cache_update_frequency_usually": 420000,
     "cache_update_frequency_often": 1200000,
     "cache_update_frequency_sometimes": 3600000,
@@ -59,26 +59,15 @@
     },
     "wsservice": "moodle_mobile_app",
     "wsextservice": "local_mobile",
-    "demo_sites": {
-        "student": {
-            "url": "https://online.eduedges.com",
-            "username": "student",
-            "password": "moodle"
-        },
-        "teacher": {
-            "url": "https://online.eduedges.com",
-            "username": "teacher",
-            "password": "moodle"
-        }
-    },
+    "demo_sites": [],
     "font_sizes": [
         62.5,
         75.89,
         93.75
     ],
     "customurlscheme": "moodlemobile",
-    "siteurl": "",
-    "sitename": "",
+    "siteurl": "https://online.eduedges.com",
+    "sitename": "EduEdges",
     "multisitesdisplay": "",
     "skipssoconfirmation": false,
     "forcedefaultlanguage": false,
